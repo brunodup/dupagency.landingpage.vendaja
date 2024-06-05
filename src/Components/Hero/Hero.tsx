@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="hero flex flex-col md:flex-row">
       <div className="w-full md:w-1/2 bg-zinc-100 md:h-dvh p-8 flex flex-col justify-center items-start">
         <a href="" className="mb-4 md:mb-24 inline-flex">
-          <Image src="/images/logo-v1.png" width={160} height={30} />
+          <Image src="/images/logo-v1.png" width={160} height={30} alt="" />
         </a>
         <div className="title flex flex-col text-5xl md:text-8xl font-black mb-8">
           <span>Adicione</span>

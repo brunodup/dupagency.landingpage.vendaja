@@ -5,7 +5,7 @@ export default function HeroMobile() {
     <section className="hero flex flex-col md:flex-row bg-zinc-100">
       <div className="w-full flex">
         <a href="" className="mb-4 md:mb-24 inline-flex justify-center items-start p-4 pt-8 bg-zinc-100 w-3/5">
-          <Image src="/images/logo-v1.png" width={160} height={30} />
+          <Image src="/images/logo-v1.png" width={160} height={30} alt="" />
         </a>
         <div className=" bg-brandPink">
           <Image className="relative left md:top-0 md:right-0" src="/images/product.png" width={813 /1.5} height={215 /1.5} alt="" />
